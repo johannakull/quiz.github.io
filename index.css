@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600&family=Space+Mono&display=swap');
+
+body {
+    padding-top: 60px;
+    text-align: center;
+    font-family: 'Montserrat', Courier, monospace;
+}
+
+h2 {
+    padding-bottom: 30px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+}
+
+.introduction {
+    margin-bottom: 55px;
+}
+
+.question {
+    width: 800px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid grey;
+}
+
+.question p, h3 {
+    text-align: center;
+}
+
+.question img {
+    max-width: 530px;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Trump or Kardashian?</h1>
+    <h2>Twitter edition</h2>
+    <p class="introduction">Guess who posted the following tweets! Click the 'Reveal' button to show the answer.</p>
+    <div class="question">
+        <img src="img/Q1-blank.png" id="img1" alt="" />
+        <button class="reveal" id="b1">Reveal</button>
+    </div>
+    <div class="question">
+        <img src="img/Q2-blank.png" id="img2" alt="" />
+        <button class="reveal" id="b2">Reveal</button>
+    </div>
+    <div class="question">
+        <img src="img/Q3-blank.jpg" id="img3" alt="" />
+        <button class="reveal" id="b3">Reveal</button>
+    </div>
+    <div class="question">
+        <img src="img/Q4-blank.png" id="img4" alt="" />
+        <button class="reveal" id="b4">Reveal</button>
+    </div>
+    <div class="question">
+        <img src="img/Q5-blank.png" id="img5" alt="" />
+        <button class="reveal" id="b5">Reveal</button>
+    </div>
+    <div class="question">
+        <img src="img/Q6-blank.png" id="img6" alt="" />
+        <button class="reveal" id="b6">Reveal</button>
+    </div>
+    <div class="question">
+        <img src="img/Q7-blank.png" id="img7" alt="" />
+        <button class="reveal" id="b7">Reveal</button>
+    </div>
+    <div class="question">
+        <img src="img/Q8-blank.png" id="img8" alt="" />
+        <button class="reveal" id="b8">Reveal</button>
+    </div>
+    <div class="question">
+        <img src="img/Q9-blank.png" id="img9" alt="" />
+        <button class="reveal" id="b9">Reveal</button>
+    </div>
+    <div class="question">
+        <img src="img/Q10-blank.png" id="img10" alt="" />
+        <button class="reveal" id="b10">Reveal</button>
+    </div>
+</body>
+<script>
+    let btn1 = document.querySelector("#b1");
+    btn1.addEventListener("click", changeImage1);
+    function changeImage1() {
+        let img = document.getElementById("img1");
+        img.src = "/Users/jkl04/Desktop/quiz/img/Q1-reveal.png";
+        }
+    
+    let btn2 = document.querySelector("#b2");
+    btn2.addEventListener("click", changeImage2);
+    function changeImage2() {
+        let img = document.getElementById("img2");
+        img.src = "/Users/jkl04/Desktop/quiz/img/Q2-reveal.png";
+        }
+
+    let btn3 = document.querySelector("#b3");
+    btn3.addEventListener("click", changeImage3);
+    function changeImage3() {
+        let img = document.getElementById("img3");
+        img.src = "/Users/jkl04/Desktop/quiz/img/Q3-reveal.jpg";
+        }
+
+    let btn4 = document.querySelector("#b4");
+    btn4.addEventListener("click", changeImage4);
+    function changeImage4() {
+        let img = document.getElementById("img4");
+        img.src = "/Users/jkl04/Desktop/quiz/img/Q4-reveal.png";
+        }
+
+    let btn5 = document.querySelector("#b5");
+    btn5.addEventListener("click", changeImage5);
+    function changeImage5() {
+        let img = document.getElementById("img5");
+        img.src = "/Users/jkl04/Desktop/quiz/img/Q5-reveal.png";
+    }   
+
+    let btn6 = document.querySelector("#b6");
+    btn6.addEventListener("click", changeImage6);
+    function changeImage6() {
+        let img = document.getElementById("img6");
+        img.src = "/Users/jkl04/Desktop/quiz/img/Q6-reveal.png";
+    }
+
+    let btn7 = document.querySelector("#b7");
+    btn7.addEventListener("click", changeImage7);
+    function changeImage7() {
+        let img = document.getElementById("img7");
+        img.src = "/Users/jkl04/Desktop/quiz/img/Q7-reveal.png";
+    }
+
+    let btn8 = document.querySelector("#b8");
+    btn8.addEventListener("click", changeImage8);
+    function changeImage8() {
+        let img = document.getElementById("img8");
+        img.src = "/Users/jkl04/Desktop/quiz/img/Q8-reveal.png";
+    }
+
+    let btn9 = document.querySelector("#b9");
+    btn9.addEventListener("click", changeImage9);
+    function changeImage9() {
+        let img = document.getElementById("img9");
+        img.src = "/Users/jkl04/Desktop/quiz/img/Q9-reveal.png";
+    }
+
+    let btn10 = document.querySelector("#b10");
+    btn10.addEventListener("click", changeImage10);
+    function changeImage10() {
+        let img = document.getElementById("img10");
+        img.src = "/Users/jkl04/Desktop/quiz/img/Q10-reveal.png";
+    }
+</script>
+</html>
+
+<!-- 
+    Q1: trump - DONE
+    Q2: kardashian - DONE
+    Q3: trump - DONE
+    Q4: kardashian - DONE
+    Q5: kardashian - DONE
+    Q6: trump - DONE
+    Q7: trump - DONE
+    Q8: kardashian - DONE
+    Q9: trump - DONE
+    Q10: kardashian - DONE
+ -->
